@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <remote name="NganuCoeg"
+          fetch="https://github.com/NganuCoeg" />
+
+  <!-- Trees -->
+  <project path="device/realme/RMX3171" name="device_realme_RMX3171" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="NganuCoeg" revision="11" clone-depth="1" />
+  
+</manifest>
