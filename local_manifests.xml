@@ -5,10 +5,7 @@
           fetch="https://github.com/NganuCoeg" />
 
   <!-- Trees -->
-  <project path="device/realme/RMX3171" name="device_realme_RMX3171_ci" remote="NganuCoeg" revision="11-exthm" clone-depth="1" />
-  <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="NganuCoeg" revision="11" clone-depth="1" />
-
-  <!-- Patches -->
-  <project path="device/realme/RMX3171" name="patches" remote="NganuCoeg" revision="RMX3171" clone-depth="1" />
+  <project path="device/oppo/RMX3171" name="RMX1805" remote="NganuCoeg" revision="10" clone-depth="1" />
+  <project path="vendor/oppo" name="vendor_RMX1805" remote="NganuCoeg" revision="10" clone-depth="1" />
   
 </manifest>
