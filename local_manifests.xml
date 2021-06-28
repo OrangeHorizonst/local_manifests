@@ -5,7 +5,7 @@
           fetch="https://github.com/NganuCoeg" />
 
   <!-- Trees -->
-  <project path="device/oppo/RMX3171" name="RMX1805" remote="NganuCoeg" revision="10" clone-depth="1" />
+  <project path="device/oppo/RMX1805" name="RMX1805" remote="NganuCoeg" revision="10" clone-depth="1" />
   <project path="vendor/oppo" name="vendor_RMX1805" remote="NganuCoeg" revision="10" clone-depth="1" />
   
 </manifest>
