@@ -9,7 +9,7 @@
   <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="NganuCoeg" revision="11" clone-depth="1" />
 
   <!-- Patches -->
-  <<project path="device/realme/RMX3171" name="patches" remote="NganuCoeg" revision="RMX3171" clone-depth="1" />
+  <project path="device/realme/RMX3171" name="patches" remote="NganuCoeg" revision="RMX3171" clone-depth="1" />
 
 bash device/realme/RMX3171/run.sh
 
