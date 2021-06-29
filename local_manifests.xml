@@ -8,13 +8,9 @@
   <project path="device/realme/RMX3171" name="device_realme_RMX3171_ci" remote="NganuCoeg" revision="11" clone-depth="1" />
   <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="NganuCoeg" revision="11" clone-depth="1" />
 
-cd external/selinux
-wget https://raw.githubusercontent.com/SamarV-121/android_vendor_extra/lineage-18.1/patches/external/selinux/0001-Revert-libsepol-Make-an-unknown-permission-an-error-.patch
-patch -p1 <*.patch
-cd ../..
-cd frameworks/av
-wget https://github.com/phhusson/platform_frameworks_av/commit/624cfc90b8bedb024f289772960f3cd7072fa940.patch
-patch -p1 <*.patch
-cd ../..
-  
+  <!-- Patches -->
+  <<project path="device/realme/RMX3171" name="patches" remote="NganuCoeg" revision="RMX3171" clone-depth="1" />
+
+bash device/realme/RMX3171/run.sh
+
 </manifest>
