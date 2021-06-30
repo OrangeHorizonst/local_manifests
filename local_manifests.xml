@@ -9,7 +9,7 @@
   <project path="vendor/realme/RMX3171" name="vendor_realme_RMX3171" remote="NganuCoeg" revision="11" clone-depth="1" />
 
   <!-- Patches -->
-  <remove-project name="android_external_selinux" />
+  <remove-project name="platform/external/selinux" />
   <project path="external/selinux" name="external_selinux" remote="NganuCoeg" revision="11" clone-depth="1"/>
 
   <remove-project name="android_frameworks_av" />
