@@ -9,7 +9,6 @@
   <project path="vendor/realme/RMX2030" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
 
   <!-- Patches -->
-  <remove-project name="android_frameworks_native" />
   <project path="frameworks/native" name="frameworks_native" remote="NganuCoeg" revision="11" clone-depth="1" />
 
 </manifest>
