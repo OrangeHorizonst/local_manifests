@@ -10,7 +10,7 @@
   <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="NganuCoeg" revision="main" clone-depth="1" />
 
   <!-- Patches -->
-  <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="packages_apps_Settings" />
   <project path="packages/apps/Settings" name="komodo" remote="NganuCoeg" revision="11" clone-depth="1" />
 
 </manifest>
