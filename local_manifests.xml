@@ -5,12 +5,7 @@
           fetch="https://github.com/NganuCoeg" />
 
   <!-- Trees -->
-  <project path="device/realme/RMX2030" name="device_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-  <project path="vendor/realme/RMX2030" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-  <project path="kernel/realme/trinket" name="kernel_r5x" remote="NganuCoeg" revision="cos" clone-depth="1" />
-
-  <!-- Patches -->
-  <remove-project name="android_frameworks_native" />
-  <project path="frameworks/native" name="frameworks_native" remote="NganuCoeg" revision="11" clone-depth="1" />
-
+  <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="NganuCoeg" revision="ci" clone-depth="1" />
+  <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="kernel/xiaomi/vayu" name="kernel_xiaomi_vayu" remote="NganuCoeg" revision="main" clone-depth="1" />
 </manifest>
