@@ -5,7 +5,7 @@
           fetch="https://github.com/NganuCoeg" />
 
   <!-- Trees -->
-  <project path="device/realme/RMX2030" name="device_realme_RMX2030" remote="NganuCoeg" revision="9" clone-depth="1" />
+  <project path="device/realme/RMX2030" name="device_realme_RMX2030" remote="NganuCoeg" revision="ci9" clone-depth="1" />
   <project path="vendor/realme/RMX2030" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="9" clone-depth="1" />
   <project path="kernel/realme/trinket" name="kernel_r5x" remote="NganuCoeg" revision="cos" clone-depth="1" />
 
