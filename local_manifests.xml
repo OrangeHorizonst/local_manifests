@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="NganuCoeg"
-          fetch="https://github.com/NganuCoeg" />
+  <remote name="nad"
+          fetch="https://github.com/NusantaraROM-Devices" />
 
   <!-- Trees -->
-  <project path="device/realme/RMX2030" name="device_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-  <project path="vendor/realme/RMX2030" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-
-  <!-- Patches -->
-  <remove-project name="android_frameworks_native" />
-  <project path="frameworks/native" name="frameworks_native" remote="NganuCoeg" revision="11" clone-depth="1" />
-
+  <project path="device/realme/RMX2020" name="device_realme_RMX2020" remote="nad" revision="11" clone-depth="1" />
+  <project path="vendor/realme/RMX2020" name="vendor_realme_RMX2020" remote="nad" revision="11" clone-depth="1" />
+  <project path="kernel/realme/rmx2020" name="kernel_realme_rmx2020" remote="nad" revision="11" clone-depth="1" />
 </manifest>
