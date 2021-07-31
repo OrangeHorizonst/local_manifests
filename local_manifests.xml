@@ -5,13 +5,7 @@
           fetch="https://github.com/NganuCoeg" />
 
   <!-- Trees -->
-  <project path="device/realme/RMX2030" name="device_realme_RMX2030" remote="NganuCoeg" revision="ci11" clone-depth="1" />
-  <project path="vendor/realme/RMX2030" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-  <project path="kernel/realme/trinket" name="kernel_r5x" remote="NganuCoeg" revision="rom" clone-depth="1" />
-
-  <!-- Patches -->
-  <remove-project name="android_frameworks_native" />
-  <project path="frameworks/native" name="obb" remote="NganuCoeg" revision="11" clone-depth="1" />
-  <remove-project name="android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="nad" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="device/realme/r5x" name="dt_r5x" remote="NganuCoeg" revision="ci11" clone-depth="1" />
+  <project path="vendor/realme/r5x" name="vt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="kernel/realme/r5x" name="kt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
 </manifest>
