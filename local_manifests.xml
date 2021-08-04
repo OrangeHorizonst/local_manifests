@@ -9,12 +9,8 @@
 
   <!-- Trees -->
   <project path="device/realme/r5x" name="dt_r5x" remote="NganuCoeg" revision="ci11" clone-depth="1" />
-  <project path="vendor/realme/r5x" name="vt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="NganuCoeg" revision="11-oss" clone-depth="1" />
   <project path="kernel/realme/r5x" name="kt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
-
-  <!-- Patches -->
-  <remove-project name="android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="nad" remote="NganuCoeg" revision="11" clone-depth="1" />
 
   <!-- RealmeParts -->
   <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Deve" revision="lineage-18.1" clone-depth="1" />
