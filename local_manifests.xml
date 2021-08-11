@@ -4,15 +4,12 @@
   <remote name="NganuCoeg"
           fetch="https://github.com/NganuCoeg" />
 
-  <remote name="Deve"
-          fetch="https://github.com/Realme-G70-Series" />
-
   <!-- Trees -->
   <project path="device/realme/r5x" name="dt_r5x" remote="NganuCoeg" revision="ci11" clone-depth="1" />
   <project path="vendor/realme/r5x" name="vt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
   <project path="kernel/realme/r5x" name="kt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
 
-  <!-- RealmeParts -->
-  <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="Deve" revision="lineage-18.1" clone-depth="1" />
+  <!-- Cuttlefish fix -->
+  <remove-project name="device/generic/opengl-transport" />
 
 </manifest>
