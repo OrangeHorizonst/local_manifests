@@ -9,7 +9,4 @@
   <project path="vendor/realme/r5x" name="vt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
   <project path="kernel/realme/r5x" name="kt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
 
-  <!-- Cuttlefish fix -->
-  <remove-project name="device/generic/opengl-transport" />
-
 </manifest>
