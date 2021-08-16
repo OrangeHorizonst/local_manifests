@@ -5,7 +5,13 @@
           fetch="https://github.com/NganuCoeg" />
 
   <!-- Trees -->
-  <project path="device/oppo/RMX1805" name="RMX1805" remote="NganuCoeg" revision="10" clone-depth="1" />
-  <project path="vendor/oppo" name="vendor_oppo" remote="NganuCoeg" revision="10" clone-depth="1" />
+  <project path="device/oppo/RMX1805" name="RMX1805" remote="NganuCoeg" revision="ci11" clone-depth="1" />
+  <project path="vendor/oppo" name="vendor_oppo" remote="NganuCoeg" revision="11" clone-depth="1" />
+
+  <!-- Patches -->
+  <remove-project name="android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="nad" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <remove-project name="android_frameworks_native" />
+  <project path="frameworks/native" name="obb" remote="NganuCoeg" revision="11" clone-depth="1" />
 
 </manifest>
