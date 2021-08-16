@@ -13,5 +13,7 @@
   <project path="packages/apps/Settings" name="nad" remote="NganuCoeg" revision="11" clone-depth="1" />
   <remove-project name="android_frameworks_native" />
   <project path="frameworks/native" name="obb" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <remove-project name="android_vendor_nusantara" />
+  <project path="vendor/nusantara" name="vndr" remote="NganuCoeg" revision="11" clone-depth="1" />
 
 </manifest>
