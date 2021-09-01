@@ -4,9 +4,14 @@
   <remote name="NganuCoeg"
           fetch="https://github.com/NganuCoeg" />
 
+  <remote name="Heh"
+          fetch="https://github.com/hentaiOS" />
+
   <!-- Trees -->
+  <remove-project name="device/generic/opengl-transport" />
   <project path="device/realme/r5x" name="dt_r5x" remote="NganuCoeg" revision="ci11" clone-depth="1" />
   <project path="vendor/realme/r5x" name="vt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
   <project path="kernel/realme/r5x" name="kt_r5x" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" remote="Heh" revision="Rika" clone-depth="1" />
 
 </manifest>
