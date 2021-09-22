@@ -4,8 +4,11 @@
   <remote name="irawans"
           fetch="https://github.com/Irawans-Android-Lab" />
 
+  <remote name="NganuCoeg"
+          fetch="https://github.com/NganuCoeg" />
+
   <!-- Trees -->
-  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="irawans" revision="10-piefw" clone-depth="1" />
+  <project path="device/realme/r5x" name="device_realme_RMX2030" remote="NganuCoeg" revision="ci10" clone-depth="1" />
   <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="irawans" revision="10-piefw" clone-depth="1" />
 
 </manifest>
