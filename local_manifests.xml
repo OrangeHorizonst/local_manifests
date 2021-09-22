@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="NganuCoeg"
-          fetch="https://github.com/NganuCoeg" />
+  <remote name="irawans"
+          fetch="https://github.com/Irawans-Android-Lab" />
 
   <!-- Trees -->
-  <project path="device/realme/RMX2030" name="device_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-  <project path="vendor/realme/RMX2030" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-
-  <!-- Patches -->
-  <remove-project name="android_frameworks_native" />
-  <project path="frameworks/native" name="frameworks_native" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="device/realme/r5x" name="android_device_realme_r5x" remote="irawans" revision="10-piefw" clone-depth="1" />
+  <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="irawans" revision="10-piefw" clone-depth="1" />
 
 </manifest>
