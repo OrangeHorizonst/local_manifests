@@ -4,15 +4,8 @@
   <remote name="NganuCoeg"
           fetch="https://github.com/NganuCoeg" />
 
-  <remote name="LOS"
-          fetch="https://github.com/LineageOS" />
-
   <!-- Trees -->
   <project path="device/realme/r5x" name="device_realme_RMX2030" remote="NganuCoeg" revision="ci10" clone-depth="1" />
   <project path="vendor/realme/r5x" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="10-piefw" clone-depth="1" />
-
-  <!-- Source fix -->
-  <remove-project name="platform/external/chromium-libpac" />
-  <project path="external/chromium-libpac" name="android_external_chromium-libpac" remote="LOS" revision="lineage-17.1" clone-depth="1" />
 
 </manifest>
