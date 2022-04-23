@@ -5,8 +5,8 @@
           fetch="https://github.com/OrangeHorizonst" />
 
   <!-- Trees -->
-  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="OrangeHorizonst" revision="12" clone-depth="1" />
-  <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="OrangeHorizonst" revision="12" clone-depth="1" />
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="OrangeHorizonst" revision="ci12" clone-depth="1" />
+  <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="OrangeHorizonst" revision="twelve" clone-depth="1" />
   <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="OrangeHorizonst" revision="twelve" clone-depth="1" />
 
 </manifest>
