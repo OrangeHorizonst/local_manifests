@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
-  <remote name="NganuCoeg"
-          fetch="https://github.com/NganuCoeg" />
+  <remote name="OrangeHorizonst"
+          fetch="https://github.com/OrangeHorizonst" />
 
   <!-- Trees -->
-  <project path="device/realme/RMX2030" name="device_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-  <project path="vendor/realme/RMX2030" name="vendor_realme_RMX2030" remote="NganuCoeg" revision="11" clone-depth="1" />
-
-  <!-- Patches -->
-  <remove-project name="android_frameworks_native" />
-  <project path="frameworks/native" name="frameworks_native" remote="NganuCoeg" revision="11" clone-depth="1" />
+  <project path="device/xiaomi/surya" name="device_xiaomi_surya" remote="OrangeHorizonst" revision="12" clone-depth="1" />
+  <project path="vendor/xiaomi/surya" name="proprietary_vendor_xiaomi_surya" remote="OrangeHorizonst" revision="12" clone-depth="1" />
+  <project path="kernel/xiaomi/surya" name="kernel_xiaomi_surya" remote="OrangeHorizonst" revision="twelve" clone-depth="1" />
 
 </manifest>
